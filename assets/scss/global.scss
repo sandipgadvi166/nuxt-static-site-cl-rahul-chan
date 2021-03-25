@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 55px;
+    margin-bottom: 100px;
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+.loader{
+    display: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    justify-items: center;
+}
+
+.bg-black{
+    background: linear-gradient(180deg,rgb(32, 145, 83) 68%,rgb(15, 20, 17) 32%);
+    background-attachment: fixed;
+}

@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.address{
+    .sticky{
+        top: 0;
+    }
+}
+
+.mainslider{
+    height: 80vh;
+    max-height: 600px;
+    margin: 0 auto;
+    max-width: 1366px;
+    background-color: #f1f1f1;
+    position: relative;
+    .star{
+        animation: rot 18s linear infinite;
+       img{
+           width: 20px;
+       }
+    }
+    .star2{
+        animation: rot 20s linear infinite;
+       img{
+           width: 20px;
+       }
+    }
+    .star3{
+        animation: rot 12s linear infinite;
+       img{
+           width: 20px;
+       }
+    }
+    .star4{
+        animation: rot 15s linear infinite;
+       img{
+           width: 20px;
+       }
+    }
+    .slogn{
+        position: absolute;
+        left: 40%;
+        top: 18%;
+        h1{
+            color: rgb(65, 65, 65);
+            text-transform: uppercase;
+            font-size: 65px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            
+          
+        }
+    }
+    .sofa{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        img{
+            width: 500px;
+        }      
+    }
+    .components{
+        top: 0;
+        left: 100;
+    .ac{
+        position: absolute;
+        top: 30%;
+        left: 60px;
+        z-index: 1;
+        img{
+            animation: grayscale 2s linear infinite;
+            width: 200px;
+        }
+        .wind{
+            position: absolute;
+            left: -15px;
+            top: 67px;
+        
+        }
+    }
+    .powercode{
+        position: absolute;
+        top: 35%;
+        left: 0px;
+        img{
+        animation: blink 2s linear infinite;
+            
+            width: 50%;
+            transform: rotate(180deg);
+        }
+    }
+    }
+    
+    .exideBattery{
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        img{
+            z-index: 2;
+            width: 25%;
+            animation: z 1.5s linear infinite;
+        }
+
+    }
+    .exideBattery2{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        img{
+            z-index: 2;
+            width: 25%;
+            animation: z 1.5s linear infinite;
+            animation-delay: 2;
+        }
+
+    }
+    .exideBattery3{
+        position: absolute;
+        bottom: 0;
+        left: 60%;
+        img{
+            z-index: 2;
+            width: 25%;
+            animation: z 1.5s linear infinite;
+            animation-delay: 3;
+        }
+
+    }
+    .exideBattery4{
+        position: absolute;
+        bottom: 0;
+        left: 70%;
+        img{
+            z-index: 2;
+            width: 25%;
+            animation: z 1.5s linear infinite;
+            animation-delay: 4;
+        }
+
+    }
+}
+
+@keyframes rot{
+    0%{
+        transform:translateY(100%) rotate(0deg);
+
+    }
+    100%{
+        transform:translateY(0%) rotate(360deg);
+        
+    }
+}
+
+@keyframes grayscale{
+
+    0%{
+        transform: scale(1);
+        filter: grayscale(0%);
+    }
+    50%{
+        transform: scale(0.9);
+        filter: grayscale(100%);
+    }
+    100%{
+            transform: scale(1);
+            filter: grayscale(0%);
+
+    }
+}
+@keyframes blink{
+
+    0%{
+       opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    
+    100%{
+          
+opacity: 1;
+    }
+}
+@keyframes z{
+
+    0%{
+        transform: scale(1);
+        
+    }
+    50%{
+        transform: scale(0.9);
+        filter: grayscale(100%);
+    }
+    100%{
+            transform: scale(1);
+          
+    }
+}
+@keyframes zoom{
+
+    0%{
+        transform: scale(1);
+        filter: grayscale(0%);
+    }
+    50%{
+        transform: scale(1.2);
+        filter: grayscale(0%);
+    }
+    100%{
+            transform: scale(1);
+            filter: grayscale(0%);
+
+    }
+}
+
+#distribution{
+    padding: 60px 0px;
+    background:linear-gradient(0deg, #f9eaa4 51%, white 31%);
+  
+    h3{
+        color: gray;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.4;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    .col{
+        padding: 60px;
+        margin: 15px;
+        background-color: teal;
+      
+       img{
+       
+        filter: grayscale(100%);
+        &:hover{
+            animation: zoom 1.5s infinite ;
+        }
+    } 
+    }
+    
+}
+
+.testimonial{
+    padding:40px 0px;
+}
+
+#contact{
+    h3{
+        color: gray;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.4;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+}
+
+.contact{
+
+
+    padding: 40px 0px;
+    &__form{
+        .card{
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px 1px rgb(65, 65, 65);
+        }
+    }
+}
+
+.about{
+    h3{
+        color: gray;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.4;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    background-attachment: fixed;
+    background: linear-gradient(white 60%,rgb(39, 36, 17) 40%);
+    position: relative;
+   padding: 100px 0px;
+    // background-image: url('static/aboutbg.png');
+    // background-position: center center;
+    // background-size: cover;
+    &__man{
+       
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        
+        img{
+            border: solid 15px rgb(25, 39, 29);
+            box-shadow: 0px 0px 10px 1  px rgba(128, 128, 128, 0.829);
+        }
+        
+    }
+    p{
+        width: 650px;
+        margin: 0 auto;
+        padding: 20px 0px 40px 0px;
+        text-align: justify;
+        line-height: 35px;
+       
+    }
+    
+}
+#gallery{
+    h3{
+        color: gray;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.4;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+}
+.gallery{
+  
+   background-image: url('static/bg.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+  background-position-y: -100px;
+  overflow: hidden;
+  
+
+}
+
+.mainslider{
+    position: relative;
+    &__earth{
+        position: absolute;
+        top:23%;
+        right: 12%;
+        z-index: 1;
+        width: 500px;
+        animation: rt 4s infinite ease;
+
+    }
+}
+
+@keyframes rt{
+   
+    0%{
+      
+      transform: translateY(0px);
+
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+ 
+      100%{
+      
+       transform: translateY(0px);
+
+    }
+   
+}
+
+section{
+    position: relative;
+    overflow: hidden;
+    .footer{
+    position: fixed;
+    bottom: 0;
+   z-index: 9999;
+    width: 100%;
+    background-color: rgb(35, 182, 113);
+    &__icons{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        overflow: auto;
+       
+        div{
+          flex: 1;
+          padding: 10px;
+          border-right: solid 1px goldenrod;
+          h2{
+              color: rgb(255, 255, 255);
+              font-size: 14px;
+          }
+        }
+    
+    }
+}
+
+}
+
+.productWrapper{
+    position: relative;
+    padding-bottom: 100px;
+    h3{
+        color: gray;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.4;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    
+    &__title{
+        text-align: center;
+        padding: 55px 0px 60px 0px;
+    }
+    
+}
+
+
+.companyName{
+    color: rgb(117, 117, 117);
+    font-size: 22px;
+    line-height: 20px;
+}
+.logo{
+    color: rgb(189, 189, 189);
+}
+
+.loading{
+    
+        POSITION: absolute;
+        top: 39%;
+        left: 25%;
+        font-size: 131px;
+        letter-spacing: 1rem;
+        color: #b6b6b6f2;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    
+    }
+    .home-enter-active, .home-leave-active { transition: opacity .5s; }
+    .home-enter, .home-leave-active { opacity: 0; }
+
+
+  .bodyWrapper{
+
+        animation: slideup 1s linear ;
+  }
+@keyframes slideup{
+    0%{
+        opacity: 0;
+        width: 50%;
+        height: 50%;
+        transform: translateY(300px);
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        transform: translateY(0px);
+    }
+}
+
+    @media only screen and (max-width: 600px) {
+        #distribution{
+            img{
+                width: 257px;
+            }
+        }
+        h3{
+            font-size: 40px  !important;
+        }
+        .mainslider{
+            .powercode{
+                display: none;
+            }
+            .components{
+                 .ac{
+                top: 11%;
+                 left: 121px;
+            }
+           }
+           .slogn{
+            left: 0%;
+            top: 29%;
+            z-index: 2;
+            text-align: center;
+           
+           p{
+               padding: 0;
+               margin-bottom: 0;
+           }
+           li{
+               display: inline-block;
+           }
+           button{
+               display: none !important;
+           }
+        }
+        }
+        .loading{
+            top: 50%;
+            left: 14%;
+            font-size: 39px;
+        }
+        .mainslider{
+            position: relative;
+            &__earth{
+                position: absolute;
+                top:7%;
+                right: 20%;
+                z-index: 1;
+                width: 250px;
+                animation: rt 4s infinite ease;
+        
+            }
+        }
+        .productWrapper{
+            padding-bottom: 0;
+            &__title{
+                padding: 55px 0 0 0 ;
+            }
+            &__title::before{
+               display: none;
+            }
+            &__title::after{
+              display: none;
+            }
+        }
+        .about{
+            padding:40px 0px;
+            p{
+                width: 100%;
+                padding: 20px;
+            }
+        }
+        .contact{
+            padding: 20px 0px;
+        }
+        
+
+    }
+
+    @media only screen and (max-width: 360px) {
+
+        .loading{
+            top: 50%;
+            left: 10%;
+            font-size: 30px;
+        }
+        .companyName{
+            font-size: 18px;
+           
+        }
+        .navbar-brand {
+            span{
+                display: none;
+            }
+        }
+
+        .mainslider{
+            position: relative;
+            &__earth{
+                position: absolute;
+                top:5%;
+                right: 19%;
+                z-index: 1;
+                width: 200px;
+                animation: rt 4s infinite ease;
+        
+            }
+        }
+        
+    
+    
+    
+    }

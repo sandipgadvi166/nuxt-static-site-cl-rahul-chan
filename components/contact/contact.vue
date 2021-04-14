@@ -1,6 +1,6 @@
 <template lang="">
     <div class="bg-black py-5 ">
-        <h3 style="color:white;" class="text-center h4 text-uppercase ">Contact US</h3>
+        <h3 class="text-center h4 text-uppercase ">Contact US</h3>
        
           <b-row class="maxWidth">
           <b-col sm="12" lg="6" md="6" xs="12" xlg="6">
@@ -61,8 +61,8 @@
             </b-container>
           </div>
             </b-col>
-            <b-col class="address">
-              <h4 class="text-center text-white">Branch Address</h4>
+            <b-col class="address mt-4">
+              <h4 class="text-center">Branch Address</h4>
                <b-card class="sticky">
                  <div class="accordion" role="tablist">
     <b-card no-body class="mb-1">

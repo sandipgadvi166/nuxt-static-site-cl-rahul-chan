@@ -23,6 +23,8 @@
                             <fa :icon="['fab','whatsapp']" /></a>
                           <a href="tel:919890038245">
                             <fa :icon="['fa','phone']" /></a>
+                            <a href="smstext://Automotive enquery">
+                                <fa :icon="['fa','sms']" /></a>
                             
                             </icon>
                                     </b-card>
@@ -42,10 +44,12 @@
                                     <!-- <b-button href="#" variant="default" class=" text-muted"
                                         ><fa :icon="['fas','cart-plus']" /> Buy Now</b-button
                                     > --> <icon>
-                                        <a target="_blank" href="https:\\api.whatsapp.com?phone='919890038245'&text='about, automotive batteries'">
+                                        <a target="_blank" href="https:\\api.whatsapp.com?phone='919890038245'&text='about, Industrial'">
                                             <fa :icon="['fab','whatsapp']" /></a>
                                           <a href="tel:919890038245">
                                             <fa :icon="['fa','phone']" /></a>
+                                            <a href="smstext://industrial enquery">
+                                                <fa :icon="['fa','sms']" /></a>
                             </icon>
                                     </b-card>
                                 </div>
@@ -60,10 +64,12 @@
                                     tag="article"
                                    
                                     > <icon>
-                                        <a target="_blank" href="https:\\api.whatsapp.com?phone='919890038245'&text='about, automotive batteries'">
+                                        <a target="_blank" href="https:\\api.whatsapp.com?phone='919890038245'&text='about, Home UPS'">
                                             <fa :icon="['fab','whatsapp']" /></a>
                                           <a href="tel:919890038245">
                                             <fa :icon="['fa','phone']" /></a>
+                                            <a href="smstext://UPS enquery">
+                                                <fa :icon="['fa','sms']" /></a>
                             </icon>
                                     </b-card>
                                 </div>

@@ -90,8 +90,8 @@
             <fa :icon="['fas', 'envelope']" :style="{ color: 'white' }" /></a>
           </div>
           <div>
-            <a href="smstest://my-test">
-            <fa :icon="['fas', 'comment-dots']" :style="{ color: 'white' }" /></a>
+            <a href="smstest://product enqury">
+            <fa :icon="['fas', 'sms']" :style="{ color: 'white' }" /></a>
           </div>
         </div>
       </div>

@@ -4,12 +4,15 @@ $lightgreen : '#c5f5d4';
 
 
     icon{
+        background-color: #aef1bc;
         text-align: center;
         padding: 20px 10px;
         a{
-            padding: 10px 15px;
+            padding: 10px 25px;
             font-size: 20px;
-            background-color: #aef1bc;
+            background-color: #8ce49f;
+            color:rgb(78, 78, 78);
+            margin-right: 10px;
         }
     }
 #distribution{
@@ -83,11 +86,11 @@ $lightgreen : '#c5f5d4';
     .ac{
         position: absolute;
         top: 30%;
-        left: 60px;
+        left: 120px;
         z-index: 1;
         img{
-            animation: grayscale 2s linear infinite;
-            width: 200px;
+            animation: grayscale 5s linear infinite;
+            width: 160px;
         }
         .wind{
             position: absolute;
@@ -247,7 +250,7 @@ opacity: 1;
     .col{
         padding: 60px;
         margin: 15px;
-        background-color: teal;
+        background-color: #b2f1ba;
       
        img{
        
@@ -319,8 +322,7 @@ opacity: 1;
         align-items: center;
         
         img{
-            border: solid 15px rgb(25, 39, 29);
-            box-shadow: 0px 0px 10px 1  px rgba(128, 128, 128, 0.829);
+            box-shadow: 0px 0px 10px #54545473;
         }
         
     }

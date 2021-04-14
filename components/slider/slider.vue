@@ -40,8 +40,8 @@
 
     <div class="components">
             <div class="ac">
-            <b-img-lazy fluid src="~/static/images/ac.png"></b-img-lazy>
-            <b-img-lazy class="wind" fluid src="~/static/images/ac_wind.png"></b-img-lazy>
+            <b-img-lazy fluid src="~/static/icons/blue.png"></b-img-lazy>
+            <!-- <b-img-lazy class="wind" fluid src="~/static/images/ac_wind.png"></b-img-lazy> -->
           </div>
           <div class="powercode">
             <b-img-lazy fluid src="~/static/images/powercode.png"></b-img-lazy>

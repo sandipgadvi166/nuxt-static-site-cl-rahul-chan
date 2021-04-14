@@ -4,16 +4,7 @@
                             <b-row class="p-3">
                                 <b-col class="mt-5">
                                 <div>
-                                    <b-card
-                                  style="max-width: 20rem"
-                                    img-src="~/static/product_photos/automative.svg"
-                                    img-alt="Image"
-                                    img-top
-                                    tag="article"
-                                   no-body
-                                    >
-                        
-                                    </b-card>
+                                   <item :img="this.img"/>
                                 </div>
                                 </b-col>
                             </b-row>
@@ -21,7 +12,18 @@
                   </b-tab>
 </template>
 <script>
-export default {}
+import item from '@/components/product/item/item.vue'
+
+export default {
+  props: ['img'],
+  components: {
+    item,
+  },
+
+  mounted() {
+    console.log(this.img)
+  },
+}
 </script>
 <style lang="">
 </style>

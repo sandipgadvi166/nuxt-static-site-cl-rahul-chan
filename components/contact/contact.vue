@@ -2,7 +2,7 @@
     <div class="bg-black py-5 ">
         <h3 style="color:white;" class="text-center h4 text-uppercase ">Contact US</h3>
        
-          <b-row class="">
+          <b-row class="maxWidth">
           <b-col sm="12" lg="6" md="6" xs="12" xlg="6">
 
            <div class="contact">
@@ -71,8 +71,15 @@
       </b-card-header>
       <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-          <b-card-text></b-card-text>
+          <b-card-text>
+           <p> <fa :icon="['fa','home']"/> Sr.No, PAP J-145, SK Hotel Lane, Bhosari Industrial Estate, Quality Cirle, Pune 411026</p>
+           <p>
+                <fa :icon="['fa', 'phone']" />
+                7619529948 || 
+                <fa :icon="['fa', 'phone']" />
+                9890038245
+              </p>
+          </b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -83,7 +90,18 @@
       </b-card-header>
       <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text></b-card-text>
+            <b-card-text>
+              <p>
+              <fa :icon="['fa','home']"/> Plot No 8 CS No 43, Near Athayu hospital, Pune bangalore highway, Ujalaiwadi, Kolhapur 416008
+              </p>
+              <p>
+                <fa :icon="['fa', 'phone']" />
+                7619529948 || 
+                <fa :icon="['fa', 'phone']" />
+                9890038245
+              </p>
+               </b-card-text>
+
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -94,7 +112,25 @@
       </b-card-header>
       <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text></b-card-text>
+          <b-card-text>
+            <p><fa :icon="['fa','home']"/> Satation road, Near Nagarparpalika, Ichalgaranji 24202110.</p>
+            <p><fa :icon="['fa','envelope']"/> bpsichalkaranji@gmail.com</p>
+            <p><fa :icon="['fa','phone']" /> 9923222550</p>
+          </b-card-text>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
+     <b-card no-body class="mb-1">
+      <b-card-header header-tag="header" class="p-1" role="tab">
+        <b-button block v-b-toggle.accordion-4 variant="info">Belagavi Contact</b-button>
+      </b-card-header>
+      <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+        <b-card-body>
+          <b-card-text>
+            <p><fa :icon="['fa','home']"/> Kadachi Residency, CTS No:4857/31 Plot No:51 3rd Main, 2nd cross, sadhari nagar near anbedkar bhavan, belgavi 590019</p>
+            <p><fa :icon="['fa','envelope']"/> bpsichalkaranji@gmail.com</p>
+            <p><fa :icon="['fa','phone']" /> 9923222550</p>
+          </b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>

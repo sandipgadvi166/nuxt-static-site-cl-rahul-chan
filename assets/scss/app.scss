@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+$lightgreen : '#c5f5d4';
+
+
+    icon{
+        text-align: center;
+        padding: 20px 10px;
+        a{
+            padding: 10px 15px;
+            font-size: 20px;
+            background-color: #aef1bc;
+        }
+    }
+#distribution{
+    img{
+        width: 100%;
+    }
+}
 .address{
     .sticky{
         top: 0;
@@ -215,7 +233,7 @@ opacity: 1;
 
 #distribution{
     padding: 60px 0px;
-    background:linear-gradient(0deg, #f9eaa4 51%, white 31%);
+     background: #ffffff;;
   
     h3{
         color: gray;
@@ -247,6 +265,10 @@ opacity: 1;
 }
 
 #contact{
+    .maxWidth{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
     h3{
         color: gray;
         text-transform: uppercase;
@@ -282,7 +304,7 @@ opacity: 1;
         margin-bottom: 60px;
     }
     background-attachment: fixed;
-    background: linear-gradient(white 60%,rgb(39, 36, 17) 40%);
+    background: linear-gradient(rgba(255, 255, 255, 0) 60%,#42b671 40%);
     position: relative;
    padding: 100px 0px;
     // background-image: url('static/aboutbg.png');
@@ -330,6 +352,7 @@ opacity: 1;
    background-attachment: fixed;
   background-position-y: -100px;
   overflow: hidden;
+  padding: 100px 40px;
   
 
 }
@@ -423,6 +446,10 @@ section{
     color: rgb(117, 117, 117);
     font-size: 22px;
     line-height: 20px;
+
+    .logo{
+        max-width: 100px;
+    }
 }
 .logo{
     color: rgb(189, 189, 189);
@@ -463,14 +490,31 @@ section{
     }
 }
 
-    @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px){
+    #distribution {
+        .col{
+            text-align: center;
+padding:25px;
+        }
+    }
+    .mainslider{
+        .slogn {
+            h1{
+               font-size: 44px; 
+            }
+        }
+    }  
+}
+
+
+    @media only screen and (max-width: 576px) {
         #distribution{
             img{
                 width: 257px;
             }
         }
         h3{
-            font-size: 40px  !important;
+            font-size: 37px  !important;
         }
         .mainslider{
             .powercode{
@@ -542,9 +586,25 @@ section{
         
 
     }
-
+   
     @media only screen and (max-width: 360px) {
 
+
+        .mainslider{ .components{ .ac{
+            left: 78px;
+        }}}
+
+        .mainslider{
+            .slogn {
+                h1{
+                    font-size: 30px;
+                }
+            }
+        } 
+
+        #distribution img {
+            width: 161px;
+        }
         .loading{
             top: 50%;
             left: 10%;
@@ -552,6 +612,7 @@ section{
         }
         .companyName{
             font-size: 18px;
+           
            
         }
         .navbar-brand {
@@ -577,3 +638,12 @@ section{
     
     
     }
+
+    // @media only screen and (max-width: 375px){
+    //     .components{
+    //         .ac{
+    //        top: 11%;
+    //         left: 90px;
+    //    }
+    //   }
+    // }

@@ -4,8 +4,8 @@
          <b-container class="mx-2 mx-auto">
       
              <b-tabs content-class="mt-3" align="center" fill>
-                    <Exide />
-                    <Amaze />
+                    <Exide img="/static/product_photos/automative.svg"/>
+                    <Amaze :img="img"/>
                     <okaya />
                     <microtek />
                       <Lloyd />
@@ -30,6 +30,11 @@ import cruise from '@/components/product/cruise.vue'
 import daikin from '@/components/product/daikin.vue'
 
 export default {
+  data() {
+    return {
+      img: '_nuxt/static/product_photos/automative.svg',
+    }
+  },
   components: {
     Exide,
     Amaze,

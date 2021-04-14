@@ -13,6 +13,7 @@ body{
     position: relative;
     height: 100%;
     overflow-y: scroll;
+    background: #f1f1f1;
     
 }
 
@@ -27,6 +28,6 @@ body{
 }
 
 .bg-black{
-    background: linear-gradient(180deg,rgb(32, 145, 83) 68%,rgb(15, 20, 17) 32%);
+    background: linear-gradient(180deg,#42b671 68%,rgb(255, 255, 255) 32%);
     background-attachment: fixed;
 }

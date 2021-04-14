@@ -12,7 +12,12 @@
           <b-container>
             <b-navbar-brand href="#home">
               <!-- <fa :icon="['fas', 'lightbulb']" /> -->
-              <b class="companyName">BSP</b>
+              <b class="companyName"
+                ><strong>
+                
+                <b-img-lazy src="~/static/logo.png" class="logo"></b-img-lazy>
+                </strong></b
+              >
               <!-- <span class="small logo"
                 ><small>Tech Solutions Pvt Ltd</small></span
               > -->
@@ -26,10 +31,10 @@
                 <b-nav-item href="#product" v-bind:class="productClass">
                   Product
                 </b-nav-item>
-                <b-nav-item href="#gallery"> Gallery </b-nav-item>
-                <b-nav-item href="#about"> About </b-nav-item>
+                <b-nav-item href="#gallery">Our Gallery </b-nav-item>
+                <b-nav-item href="#about"> About Us</b-nav-item>
                 <!-- <b-nav-item href="#testimonial"> Testimonial </b-nav-item> -->
-                <b-nav-item href="#contact"> Contact </b-nav-item>
+                <b-nav-item href="#contact"> Contact Us</b-nav-item>
               </b-navbar-nav>
             </b-collapse>
           </b-container>

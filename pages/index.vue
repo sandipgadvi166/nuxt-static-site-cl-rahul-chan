@@ -74,16 +74,24 @@
       <div class="footer">
         <div class="footer__icons">
           <div>
-            <fa :icon="['fas', 'phone']" :style="{ color: 'white' }" />
+           <a href="tel:919890038245">
+             <fa :icon="['fas', 'phone']" :style="{ color: 'white' }" />
+          </a> 
           </div>
           <div>
-            <fa :icon="['fab', 'whatsapp']" :style="{ color: 'white' }" />
+            <a href="https://api.whatsapp.com?phone='919890038245'&text='hello'">
+              <fa :icon="['fab', 'whatsapp']" :style="{ color: 'white' }" />
+
+            </a>
+            
           </div>
           <div>
-            <fa :icon="['fas', 'envelope']" :style="{ color: 'white' }" />
+            <a href="mailto:bpsichalkaranji@gmail.com">
+            <fa :icon="['fas', 'envelope']" :style="{ color: 'white' }" /></a>
           </div>
           <div>
-            <fa :icon="['fas', 'comment-dots']" :style="{ color: 'white' }" />
+            <a href="smstest://my-test">
+            <fa :icon="['fas', 'comment-dots']" :style="{ color: 'white' }" /></a>
           </div>
         </div>
       </div>
